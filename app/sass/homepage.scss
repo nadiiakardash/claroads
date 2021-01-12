@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Open-Sans";
+    src: url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"),  
+  }
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"),  
+  }
+  @font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"),  
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block1{
+    background: #3BB9FF;
+}
+
+//header
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+}
+.main-header-nav{
+    display: flex;
+    list-style: none;
+}
+.main-header-nav__item a {
+    text-decoration: none;
+    font-family: "Open-Sans";
+    padding: 0 10px;
+    color: #fff;
+}
+.header-account{
+    margin-top: 15px;
+}
+.header-login, .header-registration{
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 20px;
+    font-family: "Open-Sans";
+    text-transform: uppercase;
+    color: #0D477C;
+}
+//end of the header

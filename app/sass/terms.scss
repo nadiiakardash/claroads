@@ -1,0 +1,85 @@
+.terms-intro{
+    width: 100%;
+    max-width: 1789px;
+    margin: 0 auto;    
+}
+.terms-dreadcrums{
+    padding: 0;
+    list-style: none;
+  }
+  .terms-dreadcrums li {
+    display: inline;
+    font-size: 12px;
+    font-family: "Roboto";
+  }
+  .terms-dreadcrums li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  .terms-dreadcrums li a {
+    color: #3BB9FF;
+    text-decoration: none;
+  }
+  #breadcrums-active{
+    color: #828282;
+  }
+  .terms-title{
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase; 
+    color: #3BB9FF; 
+    span{
+        margin-right: 10px;
+    }  
+  }
+
+  //terms of serv ice container
+  .terms-container{
+      width: 100%;
+      max-width: 1205px;
+      margin: 0 auto 80px auto;
+  }
+  .terms-container-item{
+      display: flex;
+      justify-content: start;
+      align-items: flex-start;
+  }
+  .terms-container-item-num{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 21px;
+    line-height: 30px;
+    color: #3BB9FF; 
+  }
+  .terms-container-item-second{
+      margin-left: 14px;
+  }
+  .terms-container-item-name{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #3E3E3E;
+  }
+  .terms-container-item-line{
+      width: 18px;
+      border: 1px solid #3BB9FF;
+      background-color: #3BB9FF;
+      margin: 0;
+  }
+  .terms-container-item-text{
+    margin-top: 14px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #676767;
+  }
+  //end terms of service container
