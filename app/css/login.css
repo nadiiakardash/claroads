@@ -1,0 +1,94 @@
+.login-body {
+  background-color: #3BB9FF; }
+
+.login-window-container {
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  max-width: 584px;
+  margin-top: 210px; }
+
+.login-window {
+  padding: 64px 82px 48px 82px; }
+
+.login-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #3E3E3E; }
+
+.login-email-container, .login-pass-container {
+  position: relative; }
+
+.login-email-container > label, .login-pass-container > label {
+  position: absolute;
+  font-family: "Roboto";
+  padding: 0 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  top: -6px;
+  left: 20px;
+  background-color: white; }
+
+.login-email-container > input, .login-pass-container > input {
+  width: 100%;
+  border: none;
+  border: 1px solid #D5D5D5;
+  border-radius: 4px;
+  padding-top: 17px;
+  outline: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 13px;
+  padding-left: 16px; }
+
+.login-email-container > input:focus, .login-pass-container > input:focus {
+  border: 1px solid #3BB9FF; }
+
+.login-email-container > input:focus .login-email-container > label {
+  color: #3BB9FF; }
+
+.login-pass-container {
+  margin-top: 34px; }
+
+.log-in-btn {
+  width: 105%;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 36px;
+  background: #3BB9FF;
+  border: none;
+  padding: 15px 190px; }
+
+.forgot-pass {
+  padding-top: 36px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open-Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #3BB9FF; }
+
+.wt-acc {
+  margin-top: 36px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto"; }
+  .wt-acc a {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #3BB9FF; }
